@@ -25,7 +25,7 @@ namespace LearnMVCDay1.Controllers
 
             ViewData["Employee"] = emp;
 
-            return View("MyView");
+            return View("MyView", emp);
         }
     }
 }
